@@ -16,6 +16,12 @@ A company, Improbable Beef, was conducting research on various bacterial species
 
 [Visit My Belly Button Diversity Page](https://lucky777b.github.io/Belly_Button_Diversity/]
 
+Using the link provided above, you can navigate to the interactive webpage, and use the "Test Subject ID No." filter, to select different sample IDs, and see the different results from each sample. You will see all three charts update each time you click on a different sample ID.
+
+When accessing the webpage, the initial screen should look like this: 
+
+(pic of initial webpage)
+
 For this project, I utilized my knowledge of javascript, html, and Plotly, in order to create my interactive webpage. I used Plotly to produce 3 different charts on my webpage, for example, a horizontal bar chart, bubble chart, and a gauge chart. 
 
 The bar chart represented the top 10 bacterial species(or OTUs) found in a specific individuals navel. When the user hovers over each OTU ID bar, a little popup will come up specifying the value of that OTU ID found in the sample, plus the names of the bacteria species associated with that OTU ID. 
