@@ -14,7 +14,7 @@ A company, Improbable Beef, was conducting research on various bacterial species
 
 ## Results 
 
-[Visit My Belly Button Diversity Page](https://lucky777b.github.io/Belly_Button_Diversity/]
+[Visit My Belly Button Diversity Page](https://lucky777b.github.io/Belly_Button_Diversity/)
 
 Using the link provided above, you can navigate to the interactive webpage, and use the "Test Subject ID No." filter, to select different sample IDs, and see the different results from each sample. You will see all three charts update each time you click on a different sample ID.
 
