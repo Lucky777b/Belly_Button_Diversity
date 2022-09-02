@@ -112,6 +112,7 @@ function buildCharts(sample) {
 
     // 9. Create the layout for the bar chart. 
     var barLayout = {
+      xaxis: {title:"Subject ID Sample Values"},
       title: "<b>Top 10 Bacteria Cultures Found</b>",
       font:{
         family:"Arial",
@@ -147,6 +148,7 @@ function buildCharts(sample) {
         size: 18,
         color:"purple"},
       xaxis: {title:"OTU ID"},
+      yaxis: {title:"OTU ID Sample Values"},
       hovermode:'closest'
       
     };
