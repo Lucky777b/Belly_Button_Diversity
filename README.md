@@ -28,7 +28,9 @@ The bar chart represented the top 10 bacterial species(or OTUs) found in a speci
 
 The bubble chart essentially shows the same information that the bar chart does, except that it allows to the volunteer to see it in a different manner. Instead of looking at the OTU IDs in bar chart form, they can see all of the different IDs visually in size, and comparative the sizes of one OTU ID, to the rest of the OTU IDs, found in their sample. 
 
-The gauge chart was also incorporated to show the washing frequency of each volunteer's sample. The washing frequency was important to include, because if they had a higher wash frequency, then it would be expected that the sample would contain higher amounts of one or more OTU IDs, and not much variety amongst all the samples. If their wash frequency was lower, then it would make sense that the value amounts of the various OTU IDs would be similar, because there was more time to pick up more bacteria. By looking at the sample values for someone who washed 1 time a week, the bar chart and the bubble chart show high amounts of 3-4 OTU IDs, for example, "Test Subject ID No.:941". 
+The gauge chart was also incorporated to show the washing frequency of each volunteer's sample. The washing frequency was important to include, because if they had a higher wash frequency, then it would be expected that the sample would contain higher amounts of one or more OTU IDs, and not much variety amongst all the samples. If their wash frequency was lower, then it would make sense that the value amounts of the various OTU IDs would be similar, because there was more time to pick up more bacteria. 
+
+By looking at the sample values for someone who washed 1 time a week, the bar chart and the bubble chart show high amounts of 3-4 OTU IDs, for example, "Test Subject ID No.:941". 
 
 ![Sample 941](https://github.com/Lucky777b/Belly_Button_Diversity/blob/main/static/images/testSample941.png)
 
