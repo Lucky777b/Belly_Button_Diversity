@@ -48,9 +48,6 @@ function buildMetadata(sample) {
     PANEL.html("");
 
     // Use `Object.entries` to add each key and value pair to the panel
-    // Hint: Inside the loop, you will need to use d3 to append new
-    // tags for each key-value in the metadata.
-    // NEED TO USE OTHER QUOTATIONS ` ` not ' ' in .text()
     Object.entries(result).forEach(([key, value]) => {
       PANEL.append("h6").text(`${key.toUpperCase()}: ${value}`);
     });
@@ -84,14 +81,8 @@ function buildCharts(sample) {
     var washNum = wash[0];
     // Create variable that holds the wfreq 
     var wfreq = washNum.wfreq;
+
     console.log(wfreq);
-
-
-    // Could probably have done this code instead of steps 4-6 above (try later to test on copy charts.js)
-    //var otuIDs = sampleID.filter(otuID => parseInt(otuID.otu_ids));
-    //var otuLabel = sampleID.filter(otu_label => otu_label.otu_labels);
-    //var sampleVal = sampleID.filter(val = parseInt(val.sample_values));
-
     console.log(otuIDs);
     console.log(otuLabel);
     console.log(sampleVal);
@@ -106,20 +97,6 @@ function buildCharts(sample) {
     console.log(yticks);
     var xticks = sampleVal.slice(0,10).reverse();
     var labels = otuLabel.slice(0,10).reverse();
-
-
-
-    // this setup will give you the highest bacteria OTU bacteria names found in each patient ID 
-    // GOOD TO KNOW IF EVER WANTED TO PROVIDE EACH PATIENT BACTERIA NAMES Instead of OTU ID 
-    // ASK TUTOR: if this will return each patient id bacteria highest types or something else? 
-    // answer: will return bacteria names with highest bacteria names in the left margin not the 
-    // highest amount of bacteria (can see difference when uncomment code and run index.html)
-    /*
-    var yticks = otuLabel.slice(0,10).reverse().map(function(elem){return`Bacteria:`+` ${elem}`});
-    console.log(yticks);
-    var xticks = sampleVal.slice(0,10).reverse();
-    var labels = otuIDs.slice(0,10).reverse();
-    */
 
     // 8. Create the trace for the bar chart. 
 
@@ -136,9 +113,10 @@ function buildCharts(sample) {
     // 9. Create the layout for the bar chart. 
     var barLayout = {
       title: "<b>Top 10 Bacteria Cultures Found</b>",
-      // optional(other way to set bar chart onto site) margin: {t:30,l:120}
-      // I think instead of using autosize in the trace1?
-      
+      font:{
+        family:"Arial",
+        size: 15,
+        color:"purple"}
     };
     // 10. Use Plotly to plot the data with the layout. 
     Plotly.newPlot("bar", barData, barLayout);
@@ -156,7 +134,6 @@ function buildCharts(sample) {
         size: sampleVal,
         color: otuIDs,
         colorscale: 'Portland'
-        
       }
     }
    
@@ -165,6 +142,10 @@ function buildCharts(sample) {
     // 2. Create the layout for the bubble chart.
     var bubbleLayout = {
       title: "<b>Bacteria Cultures Per Sample<b>",
+      font:{
+        family:"Arial",
+        size: 18,
+        color:"purple"},
       xaxis: {title:"OTU ID"},
       hovermode:'closest'
       
@@ -197,7 +178,11 @@ function buildCharts(sample) {
     // 5. Create the layout for the gauge chart.
     var gaugeLayout = { 
       title: {
-        text: "<b>Belly Button Washing Frequency</b> <br> Scrubs Per Week"
+        text: "<b>Belly Button Washing Frequency</b> <br> Scrubs Per Week",
+        font:{
+          family:"Arial",
+          size: 20,
+          color:"purple"}
     },
       width: 500, 
       height: 300, 
