@@ -1,16 +1,16 @@
-# Belly_Button_Diversity
+# Belly Button Diversity
 
 ## Overview 
 
 A company, Improbable Beef, was conducting research on various bacterial species, in hopes that they would find a possible candidate to manufacture synthetic beef from. They wanted to see if there might be a common bacterial species that will produce the same flavor as beef made from animal meat. Thus, the purpose of this project was to create an interactive webpage that would allow all volunteers who submitted bacterial samples from their navel, to filter to their associated ID number and visualize their own bacterial data. The bacterial data that they will be visualizing is the top 10 bacterial species identified in their belly buttons. 
 
 ## Resources
-* Data: samples.json
 * Visual Studio Code 
 * Plotly
 * HTML
 * JavaScript
 * D3
+* Data: samples.json
 
 ## Results 
 
