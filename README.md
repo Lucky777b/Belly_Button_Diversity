@@ -20,7 +20,7 @@ Using the link provided above, you can navigate to the interactive webpage, and 
 
 When accessing the webpage, the initial screen should look like this: 
 
-[Initial Webpage](https://github.com/Lucky777b/Belly_Button_Diversity/blob/main/static/images/initial_webpage.png)
+![Initial Webpage](https://github.com/Lucky777b/Belly_Button_Diversity/blob/main/static/images/initial_webpage.png)
 
 For this project, I utilized my knowledge of javascript, html, and Plotly, in order to create my interactive webpage. I used Plotly to produce 3 different charts on my webpage, for example, a horizontal bar chart, bubble chart, and a gauge chart. 
 
@@ -30,8 +30,8 @@ The bubble chart essentially shows the same information that the bar chart does,
 
 The gauge chart was also incorporated to show the washing frequency of each volunteer's sample. The washing frequency was important to include, because if they had a higher wash frequency, then it would be expected that the sample would contain higher amounts of one or more OTU IDs, and not much variety amongst all the samples. If their wash frequency was lower, then it would make sense that the value amounts of the various OTU IDs would be similar, because there was more time to pick up more bacteria. By looking at the sample values for someone who washed 1 time a week, the bar chart and the bubble chart show high amounts of 3-4 OTU IDs, for example, "Test Subject ID No.:941". 
 
-[Sample 941](https://github.com/Lucky777b/Belly_Button_Diversity/blob/main/static/images/testSample941.png)
+![Sample 941](https://github.com/Lucky777b/Belly_Button_Diversity/blob/main/static/images/testSample941.png)
 
 When looking at "Test Subject ID No.: 950", you can see that they had a wash frequency of '5', and they have a significant amount of only 2 OTU IDs, while the rest show a much lower value. 
 
-[Sample 950](https://github.com/Lucky777b/Belly_Button_Diversity/blob/main/static/images/testSample950.png)
+![Sample 950](https://github.com/Lucky777b/Belly_Button_Diversity/blob/main/static/images/testSample950.png)
